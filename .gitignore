@@ -1,24 +1,8 @@
 # Mac
 .DS_Store
 
-# 認証情報
-secret/*
-
-# input, outputは履歴情報が入るため除外
-input/*
-output/*
-
-# 訓練データも履歴情報が入るため除外
-train/*
-
 # .ipynb_checkpoints
 .ipynb_checkpoints/
-
-# 基本的に実行プログラムは履歴情報が見えるため除外
-*.ipynb
-
-# 公開用に整理したものだけ追加
-!*public.ipynb
 
 # 空のディレクトリを残すため
 !.gitkeep
